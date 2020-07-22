@@ -1,0 +1,21 @@
+
+@media screen and (min-width: 1251px) and (max-width: 1500px) {
+
+	.col_img {
+		float: left;
+		margin-left: 5px;
+		width: 200px;
+		height: 100px;
+		margin-top: 20px;
+	}
+
+	.col_img_oulu {
+		float: left;
+		margin-left: 5px;
+		width: 250px;
+		height: 100px;
+		margin-top: 10px;
+	}
+
+}
+
