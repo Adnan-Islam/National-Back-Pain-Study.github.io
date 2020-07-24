@@ -47,7 +47,7 @@
 	.col_img {
 		float: left;
 		margin-left: 8%;
-		width: 200px;
+		width: 250px;
 		height: 100px;
 		margin-top: 10px;
 	}
@@ -82,6 +82,25 @@
 	div.rights {
 	  float: left;
 	  margin-left: 40%;
+	}
+
+	/*---------------------------------------- Participate Page CSS ------------------------------------------------------------------------------------*/
+
+	#rate-proposal {
+		float: left;
+		margin-left: 30px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	.gallery {
+		margin: 10px;
+		width: 29%;
+		height: 100px;
+		padding: 5px;
+		border-radius: 8px;
+		font-size: 12px;
 	}
 }
 

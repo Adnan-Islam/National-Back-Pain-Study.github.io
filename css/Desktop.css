@@ -25,5 +25,24 @@
 		height: 100px;
 		margin-top: 10px;
 	}
+
+		/*---------------------------------------- Participate Page CSS ------------------------------------------------------------------------------------*/
+
+	#rate-proposal {
+		float: left;
+		margin-left: 5%;
+		margin-right: 2%;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	.gallery {
+		margin: 10px;
+		width: 30%;
+		height: 100px;
+		padding: 5px;
+		border-radius: 8px;
+		font-size: 15px;
+	}
 }
 

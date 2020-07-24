@@ -20,7 +20,6 @@
 	}
 	
 	
-
 	.Onboard, .Onboard_para  {
 		text-align: left;
 	 	float: left;
@@ -88,6 +87,34 @@
 	div.rights {
 	  float: left;
 	  margin-left: 35%;
+	}
+
+
+
+	/*---------------------------------------- Participate Page CSS ------------------------------------------------------------------------------------*/
+
+	#rate-proposal {
+		float: left;
+		margin-left: 30px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	.gallery {
+		margin: 10px;
+		width: 40%;
+		height: 100px;
+		padding: 5px;
+		border-radius: 8px;
+		font-size: 12px;
+	}
+
+	.submit-rate-button, .submit-new-criteria-button {
+		  padding: 5px;
+		  font-size: 15px;
+		  height: 50px;
+		  width: 250px;
 	}
 }
 

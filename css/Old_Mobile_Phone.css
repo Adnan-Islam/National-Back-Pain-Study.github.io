@@ -87,5 +87,31 @@
 	  margin-left: 28%;
 	}
 
+
+	/*---------------------------------------- Participate Page CSS ------------------------------------------------------------------------------------*/
+
+	#rate-proposal {
+		float: left;
+		margin-left: 20px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	.gallery {
+		margin: 10px;
+		width: 90%;
+		height: 100px;
+		padding: 5px;
+		border-radius: 8px;
+		font-size: 15px;
+	}
+
+	.submit-rate-button, .submit-new-criteria-button {
+		  padding: 6px;
+		  font-size: 12px;
+		  height: 50px;
+		  width: 200px;
+	}
 }
 
