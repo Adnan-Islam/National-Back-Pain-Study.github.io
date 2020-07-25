@@ -95,26 +95,63 @@
 
 	#rate-proposal {
 		float: left;
-		margin-left: 30px;
-		margin-right: 10px;
+		margin-left: 5%;
+		margin-right: 3%;
 		margin-top: 10px;
 		margin-bottom: 50px;
 	}
 
 	.gallery {
 		margin: 10px;
-		width: 40%;
+		width: 44%;
 		height: 100px;
 		padding: 5px;
 		border-radius: 8px;
 		font-size: 12px;
 	}
 
-	.submit-rate-button, .submit-new-criteria-button {
-		  padding: 5px;
-		  font-size: 15px;
-		  height: 50px;
-		  width: 250px;
+	.slidecontainer {
+		width: 80%;
+		margin-top: 0px;
+		margin-left: 40px;
+		margin-right: 30px;
+		margin-bottom: 20px;
+	}
+
+	#result_display {
+		text-align: justify;
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 30px;
+		margin-bottom: 0px;
+	}
+
+	#result_display_new_criteria {
+		text-align: justify;
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 30px;
+		margin-bottom: 50px;
+	}
+
+	.submit-rate-button {
+		margin-left: 40px;
+		padding: 5px;
+		font-size: 15px;
+		height: 50px;
+		width: 250px;
+	}
+
+	.submit-new-criteria-button {
+		padding: 5px;
+		font-size: 15px;
+		height: 50px;
+		width: 250px;
+	}
+
+	p.add-new-criteria, button.add-new-criteria-button {
+  		margin-left: 40px; 
+  		margin-right: 30px;
 	}
 }
 

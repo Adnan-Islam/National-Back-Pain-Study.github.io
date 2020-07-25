@@ -408,7 +408,7 @@ div.rights {
 
 #rate-proposal {
 	float: left;
-	margin-left: 10%;
+	margin-left: 12%;
 	margin-right: 10%;
 	margin-top: 10px;
 	margin-bottom: 50px;
@@ -443,10 +443,10 @@ div.rights {
 	/* Range Slider CSS */
 
 .slidecontainer {
-	width: 60%;
+	width: 65%;
 	margin-top: 0px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 18%;
+	margin-right: 18%;
 	margin-bottom: 20px;
 }
 
@@ -482,16 +482,17 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
 #result_display {
 	text-align: justify;
 	margin-top: 10px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 18%;
+	margin-right: 18%;
 	margin-bottom: 0px;
 }
+
 
 #result_display_new_criteria {
 	text-align: justify;
 	margin-top: 10px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 18%;
+	margin-right: 18%;
 	margin-bottom: 50px;
 }
 
@@ -501,7 +502,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
   padding: 12px 25px;
   font-size: 20px;
   font-weight: bold;
-  margin-left: 20%;
+  margin-left: 18%;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: #4CAF50; 
@@ -554,6 +555,11 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
   color: #4CAF50;
   border-bottom: 2px solid #4CAF50;
   outline: none;
+}
+
+p.add-new-criteria, button.add-new-criteria-button {
+  margin-left: 18%; 
+  margin-right: 18%;
 }
 
 

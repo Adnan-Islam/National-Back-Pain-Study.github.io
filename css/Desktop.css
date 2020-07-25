@@ -44,5 +44,39 @@
 		border-radius: 8px;
 		font-size: 15px;
 	}
+
+	.slidecontainer {
+		width: 80%;
+		margin-top: 0px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-bottom: 20px;
+	}
+
+
+	#result_display {
+		text-align: justify;
+		margin-top: 10px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-bottom: 0px;
+	}
+
+	#result_display_new_criteria {
+		text-align: justify;
+		margin-top: 10px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-bottom: 50px;
+	}
+
+	.submit-rate-button {
+		margin-left: 100px;
+	}
+
+	p.add-new-criteria, button.add-new-criteria-button {
+  		margin-left: 100px; 
+  		margin-right: 100px;
+	}
 }
 
