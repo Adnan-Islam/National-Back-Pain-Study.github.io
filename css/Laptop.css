@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 771px) and (max-width: 1000px) {
 
-
+	/*---------------------------------------- Participate Page CSS ------------------------------------------------------------------------------------*/
 
 	.Onboard {
 		text-align: left;
@@ -76,30 +76,27 @@
 	  margin-left: 45%;
 	}
 
-	/*---------------------------------------- Participate Page CSS ------------------------------------------------------------------------------------*/
+	/*---------------------------------------- Result Page CSS ------------------------------------------------------------------------------------*/
 
-	#rate-proposal {
-		float: left;
-		margin-left: 5%;
-		margin-right: 3%;
-		margin-top: 10px;
-		margin-bottom: 50px;
+	.desire-range-info {
+ 		margin-left: 70px;
+		margin-right: 60px;
 	}
 
-	.gallery {
-		margin: 10px;
-		width: 30%;
-		height: 100px;
-		padding: 5px;
-		border-radius: 8px;
+	.footer-result	{
+		width: 100%;
+		height: 300px;
+		padding: 20px;
 		font-size: 15px;
+		margin-top: 10px;
+		background: rgba(0, 0, 0, 0.8);
 	}
 
 	.slidecontainer {
 		width: 80%;
 		margin-top: 0px;
-		margin-left: 80px;
-		margin-right: 80px;
+		margin-left: 70px;
+		margin-right: 60px;
 		margin-bottom: 20px;
 	}
 
@@ -107,26 +104,9 @@
 	#result_display {
 		text-align: justify;
 		margin-top: 10px;
-		margin-left: 80px;
-		margin-right: 80px;
+		margin-left: 70px;
+		margin-right: 60px;
 		margin-bottom: 0px;
-	}
-
-	#result_display_new_criteria {
-		text-align: justify;
-		margin-top: 10px;
-		margin-left: 80px;
-		margin-right: 80px;
-		margin-bottom: 50px;
-	}
-
-	.submit-rate-button {
-		margin-left: 80px;
-	}
-
-	p.add-new-criteria, button.add-new-criteria-button {
-  		margin-left: 80px; 
-  		margin-right: 80px;
 	}
 }
 
