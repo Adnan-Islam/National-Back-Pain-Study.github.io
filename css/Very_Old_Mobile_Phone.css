@@ -41,7 +41,7 @@
 	.Onboard, .Onboard_para  {
 		text-align: left;
 	 	float: left;
-	 	width: 100%;
+	 	width: 95%;
 	 	color: white;
 	 	margin-left: 20px;
 	 	margin-right: 20px;
@@ -107,10 +107,31 @@
 
 	/*---------------------------------------- Result Page CSS ------------------------------------------------------------------------------------*/
 
-	.desire-range-info {
- 		margin-left: 20px;
-		margin-right: 20px;
+	
+	.define_search {
+	  text-align: center;
+	  font-size: 15px;
 	}
+
+	#choose_source {
+	  margin-left: 10px;
+	  font-size: 5px;
+	}
+
+	.choose {
+		font-size: 12px;
+	}
+
+	.serach_criteria_select {
+	  margin-right: 10px;
+	  font-weight: bold;  
+	}
+
+	.desire-range-info {
+ 	  margin-left: 10px;
+	  margin-right: 10px;
+	}
+
 
 	.footer-result	{
 		width: 100%;
@@ -146,4 +167,7 @@
   		font-size: 15px;
 	}
 }
+
+	
+
 

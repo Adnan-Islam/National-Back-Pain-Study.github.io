@@ -4,9 +4,9 @@
 	/*---------------------------------------- Participate Page CSS ------------------------------------------------------------------------------------*/
 
 	.form-button {
-		width: 150px;
+		width: 160px;
 		height: 50px;
-		padding: 2px;
+		padding: 5px;
 		margin-top: 20px;
 		font-size: 15px;
 		font-weight: bold;
@@ -23,7 +23,7 @@
 	.Onboard, .Onboard_para  {
 		text-align: left;
 	 	float: left;
-	 	width: 100%;
+	 	width: 95%;
 	 	color: white;
 	 	margin-left: 20px;
 	 	margin-right: 20px;
@@ -90,6 +90,24 @@
 
 
 	/*---------------------------------------- Result Page CSS ------------------------------------------------------------------------------------*/
+
+	.define_search {
+	  text-align: center;
+	  font-size: 18px;
+	}
+
+	#choose_source {
+	  margin-left: 10px;
+	}
+
+	.serach_criteria_select {
+	  margin-right: 10px;
+	  font-weight: bold;  
+	}
+
+	.choose {
+		font-size: 14px;
+	}
 
 	.desire-range-info {
  		margin-left: 20px;

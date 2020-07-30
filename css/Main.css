@@ -519,7 +519,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
   border-bottom: 1px dotted blue;
 }
 
-.hints .treatment-hints {
+.hints .treatment-profession-hints {
   visibility: hidden;
   width: 200px;
   height: 140px;
@@ -536,7 +536,27 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
   margin-left: -60px;
 }
 
-.hints:hover .treatment-hints {
+.hints:hover .treatment-profession-hints {
   visibility: visible;
 }
 
+.hints .treatment-community-hints {
+  visibility: hidden;
+  width: 200px;
+  height: 140px;
+  background-color: grey;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  right: 100%;
+  margin-right: -60px;
+}
+
+.hints:hover .treatment-community-hints {
+  visibility: visible;
+}
