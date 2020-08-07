@@ -323,8 +323,13 @@
           <input type="text" id="amount4">
         </p>
         <div id="slider-range4"></div>
+      </div><br>
+
+      <button type="button" onclick="displayInfo(); show_hide_button()" id="desire-result" class="find-desire-result-button">Find Your Desire Result</button><br><br><br>
+      <div id="desire-result-display" style="text-align: justify; margin-left: 10%; margin-right: 10%"></div>
+      <div id="hide-desire-result"  style="display: none;"> 
+        <a href="#result"> <button type="button" class="hide-desire-result-button">Reset Search Criteria</button></a>
       </div>
-      <button class="find-desire-result-button">Find Your Desire Result</button>
     </section>
     
     <br><br>
@@ -390,5 +395,6 @@
     <!-- Own JavaScript -->
     <script src="Main_Study_Script.js"></script>
     <script src="bootstrap-jquery-range-slider.js"></script>
+    <script src="Mock_Data.js"></script>
   </body>
 </html>

@@ -140,7 +140,7 @@
 		margin-bottom: 0px;
 	}
 
-	.find-desire-result-button {
+	.find-desire-result-button, .hide-desire-result-button {
   		width: 200px;
   		height: 50px;
   		padding: 5px;
