@@ -39,16 +39,12 @@
             document.getElementById("desire-result-display").innerHTML = treatment_info;
         }
 
-       
        	function show_hide_button() {
 	   		document.getElementById("hide-desire-result").style.display = "block";
 	   	}
 
 
-	   	$( "form" ).submit(function( event ) {
-  			console.log( $( this ).serializeArray() );
-  			event.preventDefault();
-		});
+	   	
 
 
 			
