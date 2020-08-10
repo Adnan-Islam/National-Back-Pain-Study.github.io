@@ -72,7 +72,7 @@ $( function() {
 	min: 0,
 	max: 100,
 	values: [ 40, 60 ],
-	slide: function( event, ui ) {
+	slide: function( event, ui ) { 
 		$( "#amount3" ).val( "" + ui.values[ 0 ] + " -- " + ui.values[ 1 ] );
 		}
 	});
@@ -91,3 +91,9 @@ $( function() {
 		$( "#amount4" ).val( "" + $( "#slider-range4" ).slider( "values", 0 ) +
 		   " -- " + $( "#slider-range4" ).slider( "values", 1 ) );
 });
+
+$( "form" ).submit(function( event ) {
+  	console.log( $( this ).serializeArray() );
+  	event.preventDefault();
+});
+

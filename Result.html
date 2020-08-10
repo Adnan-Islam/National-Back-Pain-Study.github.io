@@ -25,14 +25,15 @@
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <!-- Jqeury -->
+    <!-- Jqeury CSS-->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Jquery Range Sliders touch option scripts -->
     <script src="jquery.ui.touch-punch.js"></script>
     <script src="jquery.ui.touch-punch.min.js"></script>
     <script>$('#widget').draggable();</script>
-        <!-- Custom icons scripts -->
+    <!-- Custom icons scripts -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
 
@@ -153,18 +154,18 @@
     <!-- Result Displaying Part-->
     <section id="result_display">
       <!-- Chooaing options for criteria part-->
-        <form action="">
+        <form id="result-page-form" action="" method="post">
           <label class="serach_criteria_select">Select preferred number of best results:</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Preferred number of result" value="1">
               <label for="choose_source">1</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Preferred number of result" value="3">
               <label for="choose_source">3</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Preferred number of result" value="5">
               <label for="choose_source">5</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Preferred number of result" value="7">
               <label for="choose_source">7</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Preferred number of result" value="10">
               <label for="choose_source">10</label>
           </div>
 
@@ -203,7 +204,7 @@
             <input type="checkbox" id="choose_source" name="option">
               <label for="choose_source">Masters or Higher Level Degree</label>
             <input type="checkbox" id="choose_source" name="option">
-              <label for="choose_source">Bachelo Level Degree</label>
+              <label for="choose_source">Bachelor Level Degree</label>
             <input type="checkbox" id="choose_source" name="option">
               <label for="choose_source">Vocational Degree</label>
             <input type="checkbox" id="choose_source" name="option">
@@ -325,7 +326,7 @@
         <div id="slider-range4"></div>
       </div><br>
 
-      <button type="button" onclick="displayInfo(); show_hide_button()" id="desire-result" class="find-desire-result-button">Find Your Desire Result</button><br><br><br>
+      <button type="Submit" onclick="displayInfo(); show_hide_button()" id="desire-result" class="find-desire-result-button">Find Your Desire Result</button><br><br><br>
       <div id="desire-result-display" style="text-align: justify; margin-left: 10%; margin-right: 10%"></div>
       <div id="hide-desire-result"  style="display: none;"> 
         <a href="#result"> <button type="button" class="hide-desire-result-button">Reset Search Criteria</button></a>
