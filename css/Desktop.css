@@ -45,7 +45,7 @@
 
 
 	.slidecontainer {
-		width: 80%;
+		width: 90%;
 		margin-top: 0px;
 		margin-left: 90px;
 		margin-right: 90px;
@@ -53,7 +53,7 @@
 	}
 
 
-	#result_display {
+	#result_display, #desire-range {
 		text-align: justify;
 		margin-top: 10px;
 		margin-left: 90px;

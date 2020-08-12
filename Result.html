@@ -131,41 +131,38 @@
     </section>
 
     <br><br>
-    <!-- Search Criteria Part-->
-    <section id="search_criteria">
-      <h2 style="text-align: center;"> Source of treatments and assesments:</h2>
-      <div class="define_search">
-        <input type="checkbox" id="choose_source" name="option1">
-        <label for="choose_source">
-          <div class="hints">Professionals <span class="treatment-profession-hints">The database contains treatment proposal suggested and evaluated by dozens 
-            of doctors and physiotherapists.</span>
-          </div>
-        </label>
-        
-        <input type="checkbox" id="choose_source" name="option2">
+    <!-- Source of treatments and assessments Part-->
+    <div id="search_criteria">
+      <!-- Choosing options for criteria part-->
+      <form id="result-page-form" action="" method="post">
+        <h2 style="text-align: center;"> Source of treatments and assesments:</h2>
+        <div class="define_search">
+          <input type="checkbox" id="choose_source_1" name="Source of Treatment" value="Professionals">
           <label for="choose_source">
-            <div class="hints">Community <span class="treatment-community-hints">The databank contains treatment proposals suggested and evaluated by 
-              hundreds  of ordianry citizens.</span>
-          </div>
-        </label>
-      </div>
-    </section>
+            <div class="hints">Professionals <span class="treatment-profession-hints">The database contains treatment proposal suggested and evaluated by dozens of doctors and physiotherapists.</span>
+            </div>
+          </label>
+          
+          <input style="margin-left: 10px;" type="checkbox" id="choose_source_2" name="Source of Treatment" value="Community">
+            <label for="choose_source">
+              <div class="hints" >Community <span class="treatment-community-hints">The databank contains treatment proposals suggested and evaluated by hundreds  of ordianry citizens.</span>
+            </div>
+          </label>
+        </div>
 
-    <!-- Result Displaying Part-->
-    <section id="result_display">
-      <!-- Chooaing options for criteria part-->
-        <form id="result-page-form" action="" method="post">
+        <!-- Result Displaying Part-->
+        <div id="result_display">
           <label class="serach_criteria_select">Select preferred number of best results:</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="Preferred number of result" value="1">
+            <input type="checkbox" id="choose_source" name="preferred number of best results" value="1">
               <label for="choose_source">1</label>
-            <input type="checkbox" id="choose_source" name="Preferred number of result" value="3">
+            <input type="checkbox" id="choose_source" name="preferred number of best results" value=" 3">
               <label for="choose_source">3</label>
-            <input type="checkbox" id="choose_source" name="Preferred number of result" value="5">
+            <input type="checkbox" id="choose_source" name="preferred number of best results" value="5">
               <label for="choose_source">5</label>
-            <input type="checkbox" id="choose_source" name="Preferred number of result" value="7">
+            <input type="checkbox" id="choose_source" name="preferred number of best results" value="7">
               <label for="choose_source">7</label>
-            <input type="checkbox" id="choose_source" name="Preferred number of result" value="10">
+            <input type="checkbox" id="choose_source" name="preferred number of best results" value="10">
               <label for="choose_source">10</label>
           </div>
 
@@ -173,11 +170,11 @@
 
           <label class="serach_criteria_select">Select Gender:</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Gender" value="Male">
               <label for="choose_source">Male</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Gender" value="Female">
               <label for="choose_source">Female</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Gender" value="Unrevealed">
               <label for="choose_source">Unrevealed</label>
           </div>
           
@@ -185,15 +182,15 @@
 
           <label class="serach_criteria_select">Select Age Range:</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Age Range" value="30 or less">
               <label for="choose_source">30 or less</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Age Range" value="30-40">
               <label for="choose_source">30-40</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Age Range" value="40-50">
               <label for="choose_source">40-50</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Age Range" value="50-60">
               <label for="choose_source">50-60</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Age Range" value="60 or more">
               <label for="choose_source">60 or more</label>
           </div>
           
@@ -201,17 +198,17 @@
 
           <label class="serach_criteria_select">Select Education Level:</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Education Level" value="Masters or Higher Level Degree">
               <label for="choose_source">Masters or Higher Level Degree</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Education Level" value="Bachelor Level Degree">
               <label for="choose_source">Bachelor Level Degree</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Education Level" value="Vocational Degree">
               <label for="choose_source">Vocational Degree</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Education Level" value="High School Level Degree">
               <label for="choose_source">High School Level Degree</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Education Level" value="No Degree">
               <label for="choose_source">No Degree</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Education Level" value="Other">
               <label for="choose_source">Other</label>
           </div>
 
@@ -219,15 +216,15 @@
 
           <label class="serach_criteria_select">Select Job Condition:</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Job Condition" value="Full Time Employed">
               <label for="choose_source">Full Time Employed</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Job Condition" value="Part Time Employed">
               <label for="choose_source">Part Time Employed</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Job Condition" value="Retired">
               <label for="choose_source">Retired</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Job Condition" value="Unemployed">
               <label for="choose_source">Unemployed</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Job Condition" value="Unrevealed">
               <label for="choose_source">Unrevealed</label>
           </div>
 
@@ -235,9 +232,9 @@
 
           <label class="serach_criteria_select">Did you suffer from chronic or any other form of back pain?</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="suffer from chronic" value="Yes">
               <label for="choose_source">Yes</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="suffer from chronic" value="No">
               <label for="choose_source">No</label>
           </div>
 
@@ -245,49 +242,52 @@
 
           <label class="serach_criteria_select">Select Region:</label><br>
           <div class="choose">
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Uusimaa">
               <label for="choose_source">Uusimaa</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Southwest Finland">
               <label for="choose_source">Southwest Finland</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Eastern Uusimaa">
               <label for="choose_source">Eastern Uusimaa</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Satakunta">
               <label for="choose_source">Satakunta</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Skirt">
               <label for="choose_source">Skirt</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Pirkanmaa">
               <label for="choose_source">Pirkanmaa</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Päijät-Häme">
               <label for="choose_source">Päijät-Häme</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Kymenlaakso">
               <label for="choose_source">Kymenlaakso</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="South Karelia">
               <label for="choose_source">South Karelia</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="South Savo">
               <label for="choose_source">South Savo</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Westmeath">
               <label for="choose_source">Westmeath</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="North Karelia">
               <label for="choose_source">North Karelia</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Middle-Finland">
               <label for="choose_source">Middle-Finland</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Southern Ostrobothnia">
               <label for="choose_source">Southern Ostrobothnia</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Ostrobothnia">
               <label for="choose_source">Ostrobothnia</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Central Ostrobothnia">
               <label for="choose_source">Central Ostrobothnia</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Northern Ostrobothnia">
               <label for="choose_source">Northern Ostrobothnia</label>
-            <input type="checkbox" id="choose_source" name="option">
+            <input type="checkbox" id="choose_source" name="Region" value="Lapland">
               <label for="choose_source">Lapland</label>
-            <input type="checkbox" id="choose_source" name="option2">
+            <input type="checkbox" id="choose_source" name="Region" value="Åland">
               <label for="choose_source">Åland</label>
           </div>
-        </form>
+        </div>
+      </form>
+    </div>
 
-        <br><br>
+    <br><br>
 
+    <div id="desire-range">
       <!-- Rang Slider Part-->
       <h2 style="text-align: center;">Select Your Desire Range:</h2> 
       <p class="desire-range-info">These values are provided by previous users of the kipuriihi crowdsourcing system and that values of 1 and 100 means a range from really bad to really good.</p>
@@ -297,7 +297,7 @@
       <div class="slidecontainer">
         <p> Expensive (Is the treatment expensive to implement from the patient's own point of view?)<br> 
           <b><label for="amount1"> Desired Feasibility (1-100):</label></b>
-            <input type="text" id="amount1">
+            <input type="text" id="amount1" name="Slider_1" value="">
           </p>
         <div id="slider-range1"></div>
       </div>
@@ -305,7 +305,7 @@
       <div class="slidecontainer">
         <p> Speed ​​of effect (Does the treatment work quickly?) <br> 
           <b><label for="amount2">Desired Feasibility (1-100):</label></b>
-          <input type="text" id="amount2">
+          <input type="text" id="amount2" name="Slider_2" value="">
         </p>
         <div id="slider-range2"></div>
       </div>
@@ -313,7 +313,7 @@
       <div class="slidecontainer">
         <p> The effect of persistence (Is the effect of the treatment permanent?) <br> 
           <b><label for="amount3">The Desired Satisfiability (1-100):</label></b>
-          <input type="text" id="amount3">
+          <input type="text" id="amount3" name="Slider_3" value="">
         </p>
         <div id="slider-range3"></div>
       </div>
@@ -321,18 +321,26 @@
       <div class="slidecontainer">
         <p> Efficacy (How effective is the treatment in general?)<br> 
           <b><label for="amount4">Desired Feasibility (1-100):</label></b>
-          <input type="text" id="amount4">
+          <input type="text" id="amount4" name="Slider_4" value="">
         </p>
         <div id="slider-range4"></div>
       </div><br>
 
-      <button type="Submit" onclick="displayInfo(); show_hide_button()" id="desire-result" class="find-desire-result-button">Find Your Desire Result</button><br><br><br>
+      <button type="Submit" onclick="displayInfo(); show_hide_button(); 
+        Range_Slider_1(); Range_Slider_2(); Range_Slider_3(); Range_Slider_4();" 
+        id="desire-result" class="find-desire-result-button">Find Your Desire Result
+      </button>
+      <br><br><br>
       <div id="desire-result-display" style="text-align: justify; margin-left: 10%; margin-right: 10%"></div>
       <div id="hide-desire-result"  style="display: none;"> 
-        <a href="#result"> <button type="button" class="hide-desire-result-button">Reset Search Criteria</button></a>
+        <a href="#search_criteria"> 
+          <button type="button" onclick="uncheckAll()" class="hide-desire-result-button">
+            Reset Search Criteria
+          </button>
+        </a>
       </div>
-    </section>
-    
+    </div>
+
     <br><br>
 
     <!-- Footer -->
@@ -362,7 +370,7 @@
 
       <div class="Onboard_para">
         <h3> You can also contribute to our study sharing your own experience related to back pain</h3>
-        <a href="index.html#knowledge" href="_parent"> 
+        <a href="index.html#knowledge" target="_parent"> 
           <button class="lets-participate-button" type="button">Let's Participate</button>
         </a> 
       </div>
@@ -376,7 +384,7 @@
         <h5> <a href="#return-to-start"><i class='fas'>&#xf0da;</i> &nbsp;Return to Start</a> </h5>
         <h5> <a href="#knowledge"><i class='fas'>&#xf0da;</i> &nbsp;Knowledge</a> </h5>
         <h5> <a href="#result"><i class='fas'>&#xf0da;</i> &nbsp;Find Result</a> </h5>
-        <h5> <a href="##contact-us"><i class='fas'>&#xf0da;</i> &nbsp;Contact Us</a> </h5>
+        <h5> <a href="#contact-us"><i class='fas'>&#xf0da;</i> &nbsp;Contact Us</a> </h5>
       </div>
     </div>
     
@@ -394,7 +402,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Own JavaScript -->
-    <script src="Main_Study_Script.js"></script>
     <script src="bootstrap-jquery-range-slider.js"></script>
     <script src="Mock_Data.js"></script>
   </body>
