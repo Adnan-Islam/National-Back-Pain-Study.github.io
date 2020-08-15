@@ -35,10 +35,10 @@
     <script>$('#widget').draggable();</script>
     <!-- Custom icons scripts -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
   </head>
 
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
@@ -137,13 +137,13 @@
       <form id="result-page-form" action="" method="post">
         <h2 style="text-align: center;"> Source of treatments and assesments:</h2>
         <div class="define_search">
-          <input type="checkbox" id="choose_source_1" name="Source of Treatment" value="Professionals">
+          <input type="checkbox" id="choose_source" name="Source of Treatment" value="Professionals">
           <label for="choose_source">
             <div class="hints">Professionals <span class="treatment-profession-hints">The database contains treatment proposal suggested and evaluated by dozens of doctors and physiotherapists.</span>
             </div>
           </label>
           
-          <input style="margin-left: 10px;" type="checkbox" id="choose_source_2" name="Source of Treatment" value="Community">
+          <input style="margin-left: 10px;" type="checkbox" id="choose_source" name="Source of Treatment" value="Community">
             <label for="choose_source">
               <div class="hints" >Community <span class="treatment-community-hints">The databank contains treatment proposals suggested and evaluated by hundreds  of ordianry citizens.</span>
             </div>
@@ -326,8 +326,8 @@
         <div id="slider-range4"></div>
       </div><br>
 
-      <button type="Submit" onclick="displayInfo(); show_hide_button(); 
-        Range_Slider_1(); Range_Slider_2(); Range_Slider_3(); Range_Slider_4();" 
+      <button type="submit" onclick="displayInfo(); show_hide_button(); handleInputs(); 
+        Range_Slider_1(); Range_Slider_2(); Range_Slider_3(); Range_Slider_4()" 
         id="desire-result" class="find-desire-result-button">Find Your Desire Result
       </button>
       <br><br><br>

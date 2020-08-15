@@ -138,14 +138,69 @@ $( function() {
 });
 
 
-$('form').on('click',function(){
-  // selectors that are checked => $('input:checked').length
-    console.log( $( this ).serializeArray() );
-});
+function handleInputs(){
+    $('input[type=checkbox]').each(function() {     
+        if (!this.checked) {
+            $(this).attr("value");
+        }            
+    });
+    var data = JSON.stringify( $('#result-page-form').serializeArray() );
+    console.log( data );
+    return false;
+}
+
+
+function Range_Slider_1() {
+  console.log(JSON.stringify( $('#amount1').serializeArray()));
+}
+
+function Range_Slider_2() {
+  console.log(JSON.stringify( $('#amount2').serializeArray()));
+}
+
+function Range_Slider_3() {
+  console.log(JSON.stringify( $('#amount3').serializeArray()));
+}
+
+function Range_Slider_4() {
+  console.log(JSON.stringify( $('#amount4').serializeArray()));
+}
 
 function uncheckAll(){
    $('input[type="checkbox"]:checked').prop('checked',false);
 }
+
+
+/*
+var reset_slider_1 = function( slider_selector ){
+  
+    // Reset the sliders to their original min/max values 
+    $( slider_selector ).each(function(){
+
+      var options = $(this).slider( 'option' );
+
+      $(this).slider( 'values', [ 40, 60 ] );
+
+    });  
+  
+};
+
+
+$("form").on('click', function(){
+  // selectors that are checked => $('input:checked').length
+    var data = JSON.stringify( $('form').serializeName() );
+    console.log( data ); 
+});
+
+
+function onSubmit( form ){
+  var data = JSON.stringify( $(form).serializeArray() );
+  console.log( data );
+  return false; //don't submit
+}
+
+
+
 
 function Range_Slider_1() {
   var x = document.getElementById("amount1").value;
@@ -166,7 +221,6 @@ function Range_Slider_4() {
   console.log( $( this ).serializeArray() );
 }
 
-	   	
-
+*/
 
 			

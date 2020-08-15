@@ -92,10 +92,17 @@ $( function() {
 		   " -- " + $( "#slider-range4" ).slider( "values", 1 ) );
 });
 
+function onSubmit( form ){
+  var data = JSON.stringify( $(form).serializeArray() );
+  console.log( data );
+  $('form').trigger("reset");
+  return false;
+}
+
+/*
 $( "form" ).submit(function( event ) {
-  	console.log( $( this ).serializeArray() );
+  	console.log(JSON.stringify( 'form' ));
   	event.preventDefault();
   	$('form').trigger("reset");
 });
-
-
+*/

@@ -27,6 +27,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <!-- Custom icons scripts -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Json stringify scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -114,7 +116,7 @@
 
           <br><br>
         
-          <form action="" method="">
+          <form onsubmit='return onSubmit(this)' id="form-data" action="" method="">
             <div class="row">
               <label class="form-info-selection required">Gender</label>
               <div class="form-radio-option">
@@ -297,7 +299,8 @@
             <div class="row">
               <label class="form-info-selection" for="email-info">Your email address:</label>
               <div class="form-radio-option">
-                <textarea type="text" id="email-info" name="Email Address" placeholder="Your email address (optional)" style="height: auto;"></textarea>
+                <textarea type="text" id="email-info" name="Email Address" placeholder="Your email address (optional)" 
+                  style="height: auto;"></textarea>
                 <p>We will notify you by e-mail of new questions and the progress of the study. We do not spam.</p>
               </div>
             </div>
@@ -308,7 +311,7 @@
               <label class="form-info-selection" for="form-button">Once you've responded, please continue here:</label>
               <div class="form-radio-option">
                   <button type="submit" name="submit-button" class="form-button" value="user-data" 
-                    onclick="window.open('Result.html#result');">Submit and Continue
+                    onclick="window.location.href ='Result.html#result';">Submit and Continue
                   </button>
               </div>
             </div>
