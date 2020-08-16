@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="National Back Pain Study Participation">
+    <meta name="description" content="Finding the result of National Back Pain Study">
     <meta name="author" content="Adnanul Islam">
 
     <title>Back Pain Study-Result</title>
@@ -29,22 +29,22 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <!-- Jquery Range Sliders touch option scripts -->
+    <!-- Jquery Range Sliders touch screens option scripts -->
     <script src="jquery.ui.touch-punch.js"></script>
     <script src="jquery.ui.touch-punch.min.js"></script>
     <script>$('#widget').draggable();</script>
     <!-- Custom icons scripts -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
   </head>
 
   <body>
-    <!-- Navigation -->
+    <!-- Nav Bar (Menu Bar) -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#return-to-start" style="color: #50C7C7; font-weight: bold;">University of Oulu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
-          aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -70,7 +70,9 @@
         <div class="container">
           <h1 class="masthead-heading mb-0" style="font-size: 60px">Are You Suffering Back Pain?</h1><br>
           <h2 class="masthead-subheading mb-0" style="font-size: 35px">Browse, try and find best treatment for you.</h2>
-          <a href="#result" class="btn btn-primary btn-xl rounded-pill mt-5" style="background-color: #50C7C7;margin-bottom: 30px;">Get Started</a>
+          <a href="#result" class="btn btn-primary btn-xl rounded-pill mt-5" 
+            style="background-color: #50C7C7;margin-bottom: 30px;">Get Started
+          </a>
           <h4 class="masthead-subheading mb-0" style="font-size: 20px;"> Please also put it in circulation in your own circle!</h4>
         </div>
       </div>
@@ -131,6 +133,7 @@
     </section>
 
     <br><br>
+
     <!-- Source of treatments and assessments Part-->
     <div id="search_criteria">
       <!-- Choosing options for criteria part-->
@@ -150,7 +153,7 @@
           </label>
         </div>
 
-        <!-- Result Displaying Part-->
+        <!-- Choosing options to find result Part-->
         <div id="result_display">
           <label class="serach_criteria_select">Select preferred number of best results:</label><br>
           <div class="choose">
@@ -287,13 +290,16 @@
 
     <br><br>
 
-    <div id="desire-range">
-      <!-- Rang Slider Part-->
-      <h2 style="text-align: center;">Select Your Desire Range:</h2> 
-      <p class="desire-range-info">These values are provided by previous users of the kipuriihi crowdsourcing system and that values of 1 and 100 means a range from really bad to really good.</p>
+    
+    <!-- Rang Slider Part-->
+    <h2 style="text-align: center;">Select Your Desire Range:</h2>
+    <div id="desire-range"> 
+      <p class="desire-range-info">These values are provided by previous users of the kipuriihi crowdsourcing system and that values of 
+        1 and 100 means a range from really bad to really good.
+      </p>
 
-      <br><br>
-      
+      <br>
+
       <div class="slidecontainer">
         <p> Expensive (Is the treatment expensive to implement from the patient's own point of view?)<br> 
           <b><label for="amount1"> Desired Feasibility (1-100):</label></b>
@@ -330,7 +336,9 @@
         Range_Slider_1(); Range_Slider_2(); Range_Slider_3(); Range_Slider_4()" 
         id="desire-result" class="find-desire-result-button">Find Your Desire Result
       </button>
+
       <br><br><br>
+
       <div id="desire-result-display" style="text-align: justify; margin-left: 10%; margin-right: 10%"></div>
       <div id="hide-desire-result"  style="display: none;"> 
         <a href="#search_criteria"> 
@@ -350,7 +358,7 @@
         <button onclick="openForm()" class="send_email_button" type="button">Contact Us</button>
 
         <div class="form-popup" id="myForm">
-          <form action="#" class="form-container">
+          <form action="" class="form-container">
             <h2>Contact Form</h2>
 
             <label for="fname">First Name</label>
@@ -402,7 +410,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Own JavaScript -->
-    <script src="bootstrap-jquery-range-slider.js"></script>
     <script src="Mock_Data.js"></script>
   </body>
 </html>

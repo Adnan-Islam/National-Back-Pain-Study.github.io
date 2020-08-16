@@ -1,4 +1,6 @@
 		
+    // Result Display Part
+
 		var i;
         var treatment_info = "Bellow the best result is displayed of your search based on our database (Or closest match of your search): <br><br>"; 
         var treatment_result = [{
@@ -25,7 +27,7 @@
         }, {
             "name": "#5: Pilates",
             "reviews": "Range you specify between: 19 - 95, based on 122 reviews.",
-             "ranking": "Ranking: 5",
+            "ranking": "Ranking: 5",
             "description": "Works better in pain management than painkillers." 
         }];
 
@@ -43,36 +45,6 @@ function show_hide_button() {
 	   	document.getElementById("hide-desire-result").style.display = "block";
 }
 
-       
-
-    // Show Result JavaScript
-
-function show_hide() {
-var x = document.getElementById("result_display");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "block";
-    }
-}
-
-function hide_display() {
-var x = document.getElementById("result_display_proposal");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-
-function show_hide_new_criteria() {
-var x = document.getElementById("result_display_new_criteria");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
 
     // Contact Us Form JavaScript
 
@@ -138,6 +110,8 @@ $( function() {
 });
 
 
+    // Checkboxes and Range Sliders Json Stringify JavaScript 
+
 function handleInputs(){
     $('input[type=checkbox]').each(function() {     
         if (!this.checked) {
@@ -148,7 +122,6 @@ function handleInputs(){
     console.log( data );
     return false;
 }
-
 
 function Range_Slider_1() {
   console.log(JSON.stringify( $('#amount1').serializeArray()));
@@ -185,7 +158,6 @@ var reset_slider_1 = function( slider_selector ){
   
 };
 
-
 $("form").on('click', function(){
   // selectors that are checked => $('input:checked').length
     var data = JSON.stringify( $('form').serializeName() );
@@ -221,6 +193,35 @@ function Range_Slider_4() {
   console.log( $( this ).serializeArray() );
 }
 
+
+    // Show Result JavaScript
+
+function show_hide() {
+var x = document.getElementById("result_display");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function hide_display() {
+var x = document.getElementById("result_display_proposal");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function show_hide_new_criteria() {
+var x = document.getElementById("result_display_new_criteria");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 */
 
 			
