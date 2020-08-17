@@ -140,6 +140,11 @@
 		margin-bottom: 0px;
 	}
 
+	#desire-result-display { 
+  		margin-left: 10%;
+  		margin-right: 10%;
+	}
+
 	.find-desire-result-button, .hide-desire-result-button {
   		width: 200px;
   		height: 50px;

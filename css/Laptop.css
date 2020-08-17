@@ -102,6 +102,10 @@
 		margin-bottom: 20px;
 	}
 
+	#desire-result-display { 
+  		margin-left: 10%;
+  		margin-right: 5%;
+	}
 
 	#result_display, #desire-range {
 		text-align: justify;

@@ -25,10 +25,11 @@ button:focus {
   outline: none !important;
 }
 
-.required:after {
+/*.required:after {
     content:" *";
     color: red;
 }
+*/
 
 /*---------------------------------------- Participate Page CSS ------------------------------------------------------------------*/
 
@@ -432,13 +433,20 @@ div.rights {
   margin-left: 10%;
 }
 
-  /* Define Search Part CSS */
+
+  /* Result displaying Part CSS */
 #result_display, #desire-range {
   text-align: justify;
   margin-top: 10px;
   margin-left: 10%;
   margin-right: 15%;
   margin-bottom: 0px;
+}
+
+#desire-result-display {
+  text-align: left; 
+  margin-left: 10%;
+  margin-right: 0%;
 }
 
 #result_display_new_criteria {
